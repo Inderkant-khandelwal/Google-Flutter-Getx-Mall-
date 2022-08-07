@@ -1,1 +1,1 @@
-# Google-Flutter-Getx-Mall-
+# Google-Flutter-GetX-Mall
