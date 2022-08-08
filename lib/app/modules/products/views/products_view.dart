@@ -57,9 +57,7 @@ class ProductsView extends GetView<ProductsController> {
                   scrollDirection: Axis.vertical,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
-                    childAspectRatio: context.isPortrait
-                        ? 2
-                        : widthCustom / (heightCustom / 100 * 80),
+                    childAspectRatio: context.isPortrait ? 0.7 : 0.8,
                   ),
                   itemBuilder: (BuildContext context, index) {
                     return Padding(
@@ -70,6 +68,9 @@ class ProductsView extends GetView<ProductsController> {
                           child: Card(
                             color: Colors.white,
                             child: Column(
+                              mainAxisAlignment: context.isLandscape
+                                  ? MainAxisAlignment.spaceAround
+                                  : MainAxisAlignment.spaceEvenly,
                               children: [
                                 AspectRatio(
                                   aspectRatio:
