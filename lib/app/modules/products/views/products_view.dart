@@ -58,8 +58,8 @@ class ProductsView extends GetView<ProductsController> {
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
                     childAspectRatio: context.isPortrait
-                        ? 1
-                        : widthCustom / (heightCustom / 100 * 70),
+                        ? 2
+                        : widthCustom / (heightCustom / 100 * 80),
                   ),
                   itemBuilder: (BuildContext context, index) {
                     return Padding(

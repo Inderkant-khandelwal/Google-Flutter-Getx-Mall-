@@ -1,16 +1,17 @@
-# manek_test
 
-A new Flutter project.
+# **Google Flutter GetX Mall With Sqflite Db App  by `Inderkant`**
+# ** Please Help Someone by Food and Clothes **
+# **Download the source code and try to learn something from this code Happy Coding _-_**
+# ** Dont Froget to like my Repo and also see my all repo **
+## Below are the `Screen shot of` ** Project **
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# ** `App Home` **
+![Home](screenshots/m.jpeg)
 
-A few resources to get you started if this is your first Flutter project:
+# ** `Drawer` **
+![Drawer](screenshots/d.jpeg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# ** `Cart Page` **
+![Cart](screenshots/c.jpeg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
